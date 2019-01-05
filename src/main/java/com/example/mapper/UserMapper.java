@@ -26,7 +26,7 @@ public interface UserMapper {
     })
     public User getSinUser(String userName);
 
-    //分支提交测试
+    //fetch测试
     @Select("")
     public List<User> getUsers(int age);
 }
