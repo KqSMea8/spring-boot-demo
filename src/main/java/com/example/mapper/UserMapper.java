@@ -26,7 +26,7 @@ public interface UserMapper {
     })
     public User getSinUser(String userName);
 
-    //fetch测试
+    //fetch测试2333
     @Select("")
     public List<User> getUsers(int age);
 }
