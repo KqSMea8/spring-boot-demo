@@ -27,5 +27,5 @@ public interface UserMapper {
     public User getSinUser(String userName);
 
     @Select("")
-    public List<User> getUsers(int age);
+    public List<User> getUsers(int age);  
 }
