@@ -6,6 +6,8 @@ import org.apache.ibatis.annotations.Result;
 import org.apache.ibatis.annotations.Results;
 import org.apache.ibatis.annotations.Select;
 
+import java.util.List;
+
 /**
  * Created by yujian on 2019/1/3.
  */
@@ -23,4 +25,7 @@ public interface UserMapper {
             @Result(property = "age", column = "age")
     })
     public User getSinUser(String userName);
+
+    @Select("")
+    public List<User> getUsers(int age);
 }
